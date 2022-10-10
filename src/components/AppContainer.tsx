@@ -123,7 +123,7 @@ const AppContainer: React.FC = () => {
 
     const fcmInit = async () => {
       await initFcmServiceWorker();
-      await subscribeFcmNotifications(client);
+      //await subscribeFcmNotifications(client);
     };
 
     fcmInit().catch(() => {
